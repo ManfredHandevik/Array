@@ -1,5 +1,4 @@
 ﻿double[] temperatur = { 4.5, 3.2, 6.7, 6.1, 2.1, 1.6, 2.9 };
-
         if (temperatur.Length == 0)
         {
             Console.WriteLine("Ingen data att beräkna medeltemperatur från.");
@@ -11,9 +10,6 @@
             {
                 summa += t;
             }
-
             double medel = summa / temperatur.Length;
-
-            // Skriv ut med en decimal
             Console.WriteLine($"Medeltemperatur kl. 08.00 under veckan: {medel:F1} °C"); 
         }
