@@ -1,4 +1,4 @@
-﻿double[] temperatur = { 3.4, 2.8, 4.0, 3.1, 2.9, 3.6, 3.0 };
+﻿double[] temperatur = { 4.5, 3.2, 6.7, 6.1, 2.1, 1.6, 2.9 };
 
         if (temperatur.Length == 0)
         {
